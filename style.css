@@ -13,7 +13,7 @@ body {
   position: fixed;
   width: 100%;
   min-height: 10vh;
-  background-color: #448e87;
+  background-color: #034103;
   top: 0;
   transition: 0.7s;
   z-index: 3;
@@ -40,7 +40,7 @@ body {
   transition: 1s;
 }
 .navigation a:hover {
-  background-color: #005b55;
+  background-color: #ff74d4;
 }
 #myLinks {
   display: none;
@@ -66,6 +66,7 @@ body {
   width: 700px;
   margin: auto;
   word-wrap: break-word;
+  color: #535254;
   background-color: #ffffff;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -74,8 +75,11 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  background-color: #e0f2f1;
+  background-color: #ffffff;
   padding: 50px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
 .skill1 {
   position: relative;
@@ -291,40 +295,45 @@ body {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 2px;
-  background-color: #d8d5d8;
+  background-color: #ffffff;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .text1 {
   padding-top: 70px;
   width: 700px;
-  margin: auto;
+  margin-left: 20px;
   word-wrap: break-word;
+  color: #535254;
 }
 .text2 {
   width: 700px;
-  margin: auto;
+  margin-left: 20px;
   padding-top: 10px;
   word-wrap: break-word;
+  color: #535254;
 }
 .text3 {
   width: 700px;
-  margin: auto;
+  margin-left: 20px;
   padding-top: 10px;
   word-wrap: break-word;
+  color: #535254;
 }
 .text4 {
   width: 700px;
-  margin: auto;
+  margin-left: 20px;
   padding-top: 15px;
   word-wrap: break-word;
   font-style: italic;
+  color: #535254;
 }
 .text5 {
   width: 700px;
-  margin: auto;
+  margin-left: 20px;
   padding-top: 15px;
   word-wrap: break-word;
+  color: #535254;
 }
 .portrait {
   margin: 10px 5px 15px 20px;
@@ -455,9 +464,9 @@ body {
   font-size: 15px;
 }
 .illustrator {
-  margin-top: 50px;
+  margin-top: 75px;
   margin-left: 450px;
-  margin-bottom: 150px;
+  margin-bottom: 75px;
 }
 .headerillustrator {
   font-size: 30px;
@@ -514,7 +523,7 @@ body {
 }
 .chillihaven {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -541,20 +550,20 @@ body {
   text-decoration: none;
 }
 .pictureserie {
-  margin-top: 50px;
-  margin-bottom: 25px;
-  margin-left: 200px;
-  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 1000px;
   height: 500px;
-  background-image: url(assets/pictureseries.png);
-  animation: pictureseries 15s steps(6) infinite;
+  background-image: url(assets/cihserie.png);
+  animation: pictureseries 5s steps(3) infinite;
 }
 @keyframes pictureseries {
   from {
-    background-position-x: 0px;
+    background-position-x: 9000px;
   }
   to {
-    background-position-x: 3000px;
+    background-position-x: 0px;
   }
 }
 .footer {
@@ -577,7 +586,8 @@ body {
   color: #535254;
 }
 .email:hover {
-  background-color: #e0f2f1;
+  background-color: #1a401d;
+  color: #a9aaa9;
   font-weight: bold;
 }
 .footer2 {
@@ -588,7 +598,8 @@ body {
   color: #535254;
 }
 .facebook:hover {
-  background-color: #e0f2f1;
+  background-color: #1a401d;
+  color: #a9aaa9;
   font-weight: bold;
 }
 .footer3 {
@@ -599,7 +610,8 @@ body {
   color: #535254;
 }
 .instagram:hover {
-  background-color: #e0f2f1;
+  background-color: #1a401d;
+  color: #a9aaa9;
   font-weight: bold;
 }
 @media screen and (max-width: 600px) {
@@ -650,22 +662,26 @@ body {
   }
   .skills {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 1px;
+    grid-template-columns: auto;
+    grid-gap: 15px;
     background-color: #ffffff;
-    padding: 60px;
-    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 20px;
+    padding: 20px;
   }
   .skill1 {
     background-image: url(assets/aiportrait.png);
     background-size: cover;
     text-align: center;
-    padding: 60px;
     font-size: 10px;
     height: 150px;
     width: 150px;
     text-decoration: none;
     color: white;
+    margin-left: 5px;
+    margin-right: 20px;
   }
   .overlayillustrator {
     position: absolute;
@@ -673,8 +689,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: 150px;
     opacity: 0.6;
     background-color: #f475d0;
   }
@@ -690,12 +706,13 @@ body {
     background-image: url(assets/memum.png);
     background-size: cover;
     text-align: center;
-    padding: 60px;
     font-size: 10px;
     height: 150px;
     width: 150px;
     text-decoration: none;
     color: lightgray;
+    margin-left: 5px;
+    margin-right: 20px;
   }
   .overlayphotoshop {
     position: absolute;
@@ -703,8 +720,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: 150px;
     opacity: 0.6;
     background-color: #f475d0;
   }
@@ -719,12 +736,13 @@ body {
     background-image: url(assets/youtube.png);
     background-size: cover;
     text-align: center;
-    padding: 60px;
     font-size: 10px;
     height: 150px;
     width: 150px;
     text-decoration: none;
     color: black;
+    margin-left: 5px;
+    margin-right: 20px;
   }
   .overlaypremiere {
     position: absolute;
@@ -732,8 +750,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: 150px;
     opacity: 0.6;
     background-color: #f475d0;
   }
@@ -748,11 +766,12 @@ body {
     background-image: url(assets/chillihaven.jpg);
     background-size: cover;
     text-align: center;
-    padding: 60px;
     font-size: 10px;
     height: 150px;
     width: 150px;
     text-decoration: none;
+    margin-left: 5px;
+    margin-right: 20px;
   }
   .overlaychill {
     position: absolute;
@@ -760,8 +779,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: 150px;
     opacity: 0.6;
     background-color: #f475d0;
   }
@@ -776,10 +795,11 @@ body {
     background-image: url(assets/redesignpage.png);
     background-size: cover;
     text-align: center;
-    padding: 60px;
     font-size: 10px;
     height: 150px;
     width: 150px;
+    margin-left: 5px;
+    margin-right: 20px;
   }
   .overlayredesign {
     position: absolute;
@@ -787,8 +807,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: 150px;
     opacity: 0.6;
     background-color: #f475d0;
   }
@@ -803,10 +823,11 @@ body {
     background-image: url(assets/portraitround.png);
     background-size: cover;
     text-align: center;
-    padding: 60px;
     font-size: 10px;
     height: 150px;
     width: 150px;
+    margin-left: 5px;
+    margin-right: 20px;
   }
   .overlayportvideo {
     position: absolute;
@@ -814,8 +835,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: 150px;
     opacity: 0.6;
     background-color: #f475d0;
   }
@@ -992,20 +1013,21 @@ body {
     font-size: 15px;
   }
   .illustrator {
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 100px;
-    margin-bottom: 350px;
+    margin-bottom: 200px;
   }
   .headerillustrator {
     font-size: 20px;
     text-align: left;
-    width: 200px;
-    margin-right: 100px;
-    margin-top: 20px;
+    width: 300px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 50px;
     color: #005b55;
   }
   .AISlides {
-    margin-top: 40px;
+    margin-top: 100px;
     display: none;
     width: 70%;
     display: block;
